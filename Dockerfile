@@ -27,6 +27,7 @@ RUN apt-get update && apt-get -yqq install \
         bash-completion \
         vim \
         gawk diffstat unzip texinfo gcc-multilib build-essential chrpath socat cpio \
+		libsdl1.2-dev \
     && apt-get clean \
     && rm -rf /var/lib/apt/lists/*
 
